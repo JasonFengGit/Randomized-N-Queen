@@ -42,5 +42,4 @@ ave time: 2.2153621888160706
 clone or download the `n_queen.py` file:
 ```
 python3 n_queen.py
-
 ```
