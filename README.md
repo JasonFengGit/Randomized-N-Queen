@@ -1,5 +1,5 @@
 # Randomized-N-Queen
-A Python program which finds a valid n queen solution (uses &lt; 3s averagely for n = 100)
+A Python program which finds a valid n queen solution (uses &lt; 3s on average for n = 100)
 
 ## Approach
 Randomized Backtracking with time constraints. 
