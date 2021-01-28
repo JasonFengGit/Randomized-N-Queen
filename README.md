@@ -39,7 +39,8 @@ ave time: 2.2153621888160706
 ```
 
 ## How To Run
-After clone or download the `n_queen.py` file:
+clone or download the `n_queen.py` file:
 ```
-python n_queen.py
+python3 n_queen.py
+
 ```
