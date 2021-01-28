@@ -10,7 +10,7 @@ def select_unassign_variable(assignment, csp):
             return i
 
 def is_consistent(var, value, assignment, csp):
-    # alldiff
+    # all values different
     # Xi-Xj != i - j
     # Xi-Xj != j - i
     if value in assignment.values():
@@ -55,8 +55,6 @@ def backtrack(assignment, csp, domains, t):
         if is_consistent(var, value, assignment, csp):
             add(assignment, value, var)
             result = backtrack(assignment, csp, domains, t)
-            if result == "t":
-                return result
             if result:
                 return result
         remove(assignment, value, var)
